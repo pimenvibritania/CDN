@@ -22,18 +22,19 @@ body {
 .gaya
 {
 display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   /*background: rgba(241, 78, 149, 0.8);*/
   background-color:#98a094;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 25px;
+  padding-top: 5px;
   position: relative;
   animation: pulse 1s ease infinite;
   color:white;
-  font-size:40px;
+  font-size:25px;
   margin-bottom:20px;
 }
 
@@ -1223,7 +1224,7 @@ form label {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  margin-bottom: 2.5em;
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
